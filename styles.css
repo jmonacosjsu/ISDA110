@@ -1,0 +1,81 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #e4e4e4;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("images/Backdrop.webp"); /* Set backdrop image */
+  background-size: cover; /* Ensure the image covers the entire header */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  padding: 20px;
+  text-align: center;
+  color: white; /* Ensure text is readable over the backdrop */
+}
+
+h1 {
+  color: #ffd700;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+h2 {
+  color: #ff6347;
+  font-size: 1.8em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+section.creature {
+  border-bottom: 2px solid #3e3e3e;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+section.creature:last-child {
+  border-bottom: none;
+}
+
+.creature-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.creature-image {
+  width: 200px; /* Adjust the width of the image */
+  height: auto;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.creature-text {
+  max-width: 70%;
+}
+
+strong {
+  color: #ff6347;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #d3d3d3;
+}
